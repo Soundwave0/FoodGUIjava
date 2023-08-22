@@ -6,7 +6,9 @@
 
 package proteincalc;
 
-
+//Todo
+//make it pretty
+//write the code to display the values in jbutton action preformed
 
 /**
  *
@@ -93,8 +95,6 @@ public class mainbody extends javax.swing.JFrame {
 
         jLabel12.setText("Taste:");
 
-        jLabel13.setText("jLabel13");
-
         jLabel14.setText("jLabel14");
 
         jLabel15.setText("jLabel15");
@@ -126,14 +126,13 @@ public class mainbody extends javax.swing.JFrame {
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                             .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 119, Short.MAX_VALUE)
                                             .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                        .addGap(30, 30, 30)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addGroup(layout.createSequentialGroup()
-                                                .addGap(42, 42, 42)
                                                 .addComponent(jLabel9)
-                                                .addGap(32, 32, 32)
+                                                .addGap(44, 44, 44)
                                                 .addComponent(checkbox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                             .addGroup(layout.createSequentialGroup()
-                                                .addGap(30, 30, 30)
                                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                                     .addComponent(jLabel12)
                                                     .addComponent(jLabel11)
@@ -161,7 +160,8 @@ public class mainbody extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel5))
+                            .addComponent(jLabel5)
+                            .addComponent(jLabel9))
                         .addGap(10, 10, 10)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -183,9 +183,7 @@ public class mainbody extends javax.swing.JFrame {
                         .addComponent(jButton2)
                         .addContainerGap())
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(checkbox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel9))
+                        .addComponent(checkbox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(jLabel13)
                         .addGap(118, 118, 118))))
@@ -196,6 +194,15 @@ public class mainbody extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         String foodinput = textField1.getText();
+        
+        //go across the array of the FoodData and get the index of the food if it exists
+        //get the object and parse its values
+        //place said values in the correct JLabel
+        //If the food doesn't exist
+        //redirect into the new food panel window which will allow you to create a new food and add it to the FoodData object
+        // you will be able to return to the original main screen and continue searching and adding food
+        // you will be able to remove objects from the Food Data
+       
         
         
         

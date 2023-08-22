@@ -21,9 +21,13 @@ public class Proteincalc {
     public static void main(String[] args) {
         
         
-        FoodData fd = new FoodData();
-        Food test = new Food(1,1,1,1,1,1,"test");
-        fd.addFood(test,fd);
+        //FoodData fd = new FoodData();
+        //fd.addTest();
+        //Food f = new Food(1,1,1,1,1,1,"test");
+        //System.out.println(fd.toString());
+        //System.out.println(fd.getFood(0).getCalories());
+        
+        
         
  
         
@@ -31,6 +35,12 @@ public class Proteincalc {
         
         mainbody test1 = new mainbody();
         test1.show();
+        //write control flow statemtns so that if the database is empty or the food searched for does not exist
+        //it opens the newFoodPanel and then prompots the user to create a new food
+        //upon creation of new food, the panel should display a message of a succesful creation then sleep for 2 seconds then exit
+        //it should return to the mainbodyframe
+        
+        
         
     }
     
